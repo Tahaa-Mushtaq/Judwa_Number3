@@ -1340,6 +1340,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 48c368ebd5ff0b942bf207bde1eeb977, type: 2}
   - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: 9a3e903bf02b93a4dbcba0d84a9dfa67, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 24
     m_Data: {fileID: 1974239997, guid: 1ff621bafaff38f4ebcc1baf669ab883, type: 3}
@@ -1349,6 +1351,8 @@ Tilemap:
     m_Data: {fileID: -375776261, guid: 1ff621bafaff38f4ebcc1baf669ab883, type: 3}
   - m_RefCount: 6
     m_Data: {fileID: -1228118748, guid: 1ff621bafaff38f4ebcc1baf669ab883, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 81
     m_Data:
@@ -1375,7 +1379,7 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -12, y: -5, z: 0}
-  m_Size: {x: 25, y: 10, z: 1}
+  m_Size: {x: 27, y: 10, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -1408,7 +1412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpForce: 4
+  jumpForce: 5
 --- !u!19719996 &1362431441
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -1506,7 +1510,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.020345
+  orthographic size: 4.8388233
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1551,7 +1555,7 @@ GameObject:
   - component: {fileID: 1977528741}
   - component: {fileID: 1977528743}
   m_Layer: 0
-  m_Name: player-idle2
+  m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1618,7 +1622,7 @@ Transform:
   m_GameObject: {fileID: 1977528738}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.34, y: -0.35, z: 0}
+  m_LocalPosition: {x: -10.34, y: -1.82, z: 0}
   m_LocalScale: {x: 5.7149, y: 6.0566726, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
